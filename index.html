@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>UNIVESP</title>
+</head>
+<body>
+  <header>
+    <img src="https://univesp.br/sites/527174b7b24a527adc000002/assets/590b74fa9caf4d3c61001001/Univesp_logo_png_rgb.png" alt="Univesp logo">
+  </header>
+  <main>
+    <article id="calculadora">
+      <h1>Calculadora | Média Final</h1>
+      <input type="text" placeholder="Disciplina" id="disciplina" class="input">
+      <div id="notas">
+        <input type="text" placeholder="Média AVA" id="notaAva" class="input input-notas">
+        <input type="text" placeholder="Prova regular" id="notaProva" class="input input-notas">
+      </div>
+      <button id="botaoEnviar">Enviar</button>
+    </article>
+    <ul id="saidaNotas"></ul>
+  </main>
+  <footer>
+    <p>(nota média atividades AVA * 0,4 + nota da prova regular * 0,6)</p>
+    <p>Projeto desenvolvido por <a href="https://github.com/Possomato" target="_blank">Gabriel Possomato</a></p>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+</html>
