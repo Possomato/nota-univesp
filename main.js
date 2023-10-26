@@ -23,7 +23,7 @@ function calculaNota(){
   }
 
 
-  const media = (ava * 0,4) + (prova * 0.6)
+  const media = (ava * 0.4) + (prova * 0.6)
   const novaNota = document.createElement('li')
 
   novaNota.className = `${contador} nota`
